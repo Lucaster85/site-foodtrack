@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.footer {
+    background-color: $color-footer-bg;
+    .main {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+        .logo {
+            width: 10%;
+            img {
+                width: 100%;
+                
+            }
+        }
+        
+        .lowerMenu {
+            display: flex;
+            flex-direction: row;
+
+            .menuItem {
+                padding: 25px;
+            }
+            
+        }
+        
+        .social {
+            .socialTitle {
+                font-weight: bold;
+            }
+
+            .socialItem {
+                font-family: $font-secondary;
+                line-height: 200%;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}

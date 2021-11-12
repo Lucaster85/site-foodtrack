@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `The FoodTrack Web Site`,
+    title: `The Food-Truck Web Site`,
     description: `Sitio web de foodtrack creado por Lucaster`,
     author: `Lucaster`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -29,7 +29,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/iconoCamion.png`, // This path is relative to the root of the site.
+        icon: `src/images/batman.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

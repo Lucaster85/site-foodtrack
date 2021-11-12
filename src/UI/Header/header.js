@@ -2,24 +2,27 @@ import * as React from 'react';
 
 import * as styles from './header.module.scss';
 
-import logo from '../../images/iconoCamion.png';
+import logo from '../../images/batman.png';
 
 const Header = ({ siteTitle }) => (
   <header className={styles.headerSection}>
-    <nav className={styles.nav}>
+    <div className={styles.bar}>
       <div className={styles.logo}>
-        <img src={logo} alt='' />
+        <img src={logo} alt='Logo' />
       </div>
       <div className={styles.title}>
         <h1>{siteTitle}</h1>
       </div>
-      <ol className={styles.menu}>
-        <li className={styles.menuItem}>Home</li>
-        <li className={styles.menuItem}>About</li>
-        <li className={styles.menuItem}>Menus</li>
-        <li className={styles.menuItem}>Contact</li>
-      </ol>
-    </nav>
+      <nav className={styles.nav}>
+        <ol className={styles.menu}>
+          <li className={styles.menuItem}><a href='#'>Home</a></li>
+          <li className={styles.menuItem}><a href='#menu'>Menu</a></li>
+          <li className={styles.menuItem}><a href='#galery'>Galery</a></li>
+          <li className={styles.menuItem}><a href='#about'>About</a></li>
+          <li className={styles.menuItem}><a href='#contact'>Contact</a></li>
+        </ol>
+      </nav>
+    </div>
   </header>
 )
 

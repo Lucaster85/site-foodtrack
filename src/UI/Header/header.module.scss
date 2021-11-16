@@ -1,12 +1,14 @@
 @import '../variables.scss';
 
 .headerSection {
-    position: fixed;
-    top: 0;
+    // position: fixed;
+    // top: 0;
     width: 100%;
+    max-width: 100%;
     background-color:$color-header-bg;
     color: $color-base;
-    margin: auto;
+    margin: 0 auto;
+    border: solid 2px red;
     
     .bar {
         margin: 15px;

@@ -8,10 +8,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  overflow-y: scroll;
   
   body {
-    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: hsla(0, 0%, 0%, 0.8);
@@ -25,18 +23,27 @@ html {
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
     
-    main {
-      margin-top: $margin-top-main-tag;
-    }
-
-    a {
-      text-decoration: none;
-      color: $color-base;
-    }
     
-    ul, ol {
-    list-style: none;
-    padding-inline-start: 0px
+    .container {
+      margin: 0 auto;
+      max-width: 1920px;
+      width: 100%;
+      overflow: hidden;
+      border: solid 2px green;
+      
+      main {
+        // margin-top: $margin-top-main-tag;
+      }
+      
+      a {
+        text-decoration: none;
+        color: $color-base;
+      }
+      
+      ul, ol {
+        list-style: none;
+        padding-inline-start: 0px
+      }
     }
   }
   

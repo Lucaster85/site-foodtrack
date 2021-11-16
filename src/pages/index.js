@@ -1,12 +1,13 @@
 import * as React from 'react';
 
-import Layout from '../UI/layout';
 import Seo from '../UI/seo';
+import Layout from '../UI/layout';
+import MenuSection from '../components/Menu/menu';
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-<h2>HOLA LUCASTER</h2>
+    <MenuSection />
   </Layout>
 )
 
